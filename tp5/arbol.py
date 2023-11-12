@@ -18,23 +18,18 @@ lista_heroes = [
     {'name': 'deadpool', 'heroe': True}
 ]
 
-# Insert heroes and villains into the binary tree
 for heroe in lista_heroes:
     arbol.insert_node(heroe['name'], heroe['heroe'])
 
-# b
 arbol.inorden_super_or_villano(False)
 print()
 
-# c
 arbol.inorden_start_with('C')
 print()
 
-# d
 print('Cantidad de superheroes:', arbol.contar_heroes())
 print()
 
-# e
 search_term = input('Ingrese el término de búsqueda: ')
 arbol.search_by_coincidence(search_term)
 
@@ -53,10 +48,8 @@ else:
 print()
 arbol.inorden()
 
-# f
 arbol.by_level()
 
-# g
 superheroes = BinaryTree()
 villains = BinaryTree()
 
