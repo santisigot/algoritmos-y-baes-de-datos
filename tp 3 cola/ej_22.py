@@ -1,4 +1,4 @@
-from cola1 import Cola
+from cola16 import Cola
         
 '''22. Se tienen una cola con personajes de Marvel Cinematic Universe (MCU), de los cuales se conoce
 el nombre del personaje, el nombre del superhéroe y su género (Masculino M y Femenino
